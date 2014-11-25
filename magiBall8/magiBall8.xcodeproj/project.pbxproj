@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ED4BB5A19ECCE64000B3B59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED4BB5919ECCE64000B3B59 /* Foundation.framework */; };
+		1ED4BB5C19ECCE64000B3B59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED4BB5B19ECCE64000B3B59 /* CoreGraphics.framework */; };
+		1ED4BB5E19ECCE64000B3B59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED4BB5D19ECCE64000B3B59 /* UIKit.framework */; };
+		1ED4BB6419ECCE64000B3B59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB6219ECCE64000B3B59 /* InfoPlist.strings */; };
+		1ED4BB6619ECCE64000B3B59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED4BB6519ECCE64000B3B59 /* main.m */; };
+		1ED4BB6A19ECCE64000B3B59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED4BB6919ECCE64000B3B59 /* AppDelegate.m */; };
+		1ED4BB6D19ECCE64000B3B59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB6B19ECCE64000B3B59 /* Main.storyboard */; };
+		1ED4BB7019ECCE64000B3B59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED4BB6F19ECCE64000B3B59 /* ViewController.m */; };
+		1ED4BB7219ECCE64000B3B59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB7119ECCE64000B3B59 /* Images.xcassets */; };
+		1ED4BB7919ECCE64000B3B59 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED4BB7819ECCE64000B3B59 /* XCTest.framework */; };
+		1ED4BB7A19ECCE64000B3B59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED4BB5919ECCE64000B3B59 /* Foundation.framework */; };
+		1ED4BB7B19ECCE64000B3B59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED4BB5D19ECCE64000B3B59 /* UIKit.framework */; };
+		1ED4BB8319ECCE64000B3B59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB8119ECCE64000B3B59 /* InfoPlist.strings */; };
+		1ED4BB8519ECCE64000B3B59 /* magiBall8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED4BB8419ECCE64000B3B59 /* magiBall8Tests.m */; };
+		1ED4BBA219ECCF11000B3B59 /* As I see it, yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB8E19ECCF11000B3B59 /* As I see it, yes.png */; };
+		1ED4BBA319ECCF11000B3B59 /* Ask again later.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB8F19ECCF11000B3B59 /* Ask again later.png */; };
+		1ED4BBA419ECCF11000B3B59 /* Better not tell you now.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9019ECCF11000B3B59 /* Better not tell you now.png */; };
+		1ED4BBA519ECCF11000B3B59 /* Cannot predict now.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9119ECCF11000B3B59 /* Cannot predict now.png */; };
+		1ED4BBA619ECCF11000B3B59 /* Concetrate and ask again.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9219ECCF11000B3B59 /* Concetrate and ask again.png */; };
+		1ED4BBA719ECCF11000B3B59 /* Don't count on it.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9319ECCF11000B3B59 /* Don't count on it.png */; };
+		1ED4BBA819ECCF11000B3B59 /* It is certain.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9419ECCF11000B3B59 /* It is certain.png */; };
+		1ED4BBA919ECCF11000B3B59 /* It is decidedly so.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9519ECCF11000B3B59 /* It is decidedly so.png */; };
+		1ED4BBAA19ECCF11000B3B59 /* Most Likely.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9619ECCF11000B3B59 /* Most Likely.png */; };
+		1ED4BBAB19ECCF11000B3B59 /* My reply is no.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9719ECCF11000B3B59 /* My reply is no.png */; };
+		1ED4BBAC19ECCF11000B3B59 /* My sources say no.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9819ECCF11000B3B59 /* My sources say no.png */; };
+		1ED4BBAD19ECCF11000B3B59 /* Outlook good.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9919ECCF11000B3B59 /* Outlook good.png */; };
+		1ED4BBAE19ECCF11000B3B59 /* Outlook not so good.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9A19ECCF11000B3B59 /* Outlook not so good.png */; };
+		1ED4BBAF19ECCF11000B3B59 /* Reply hazy try again.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9B19ECCF11000B3B59 /* Reply hazy try again.png */; };
+		1ED4BBB019ECCF11000B3B59 /* Signs point to yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9C19ECCF11000B3B59 /* Signs point to yes.png */; };
+		1ED4BBB119ECCF11000B3B59 /* Very doubful.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9D19ECCF11000B3B59 /* Very doubful.png */; };
+		1ED4BBB219ECCF11000B3B59 /* Without a doubt.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9E19ECCF11000B3B59 /* Without a doubt.png */; };
+		1ED4BBB319ECCF11000B3B59 /* Yes, definitely.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BB9F19ECCF11000B3B59 /* Yes, definitely.png */; };
+		1ED4BBB419ECCF11000B3B59 /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BBA019ECCF11000B3B59 /* yes.png */; };
+		1ED4BBB519ECCF11000B3B59 /* You may rely on it.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BBA119ECCF11000B3B59 /* You may rely on it.png */; };
+		1ED4BBB719ECD166000B3B59 /* magic8ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4BBB619ECD166000B3B59 /* magic8ball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ED4BB7C19ECCE64000B3B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ED4BB4E19ECCE64000B3B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ED4BB5519ECCE64000B3B59;
+			remoteInfo = magiBall8;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ED4BB5619ECCE64000B3B59 /* magiBall8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magiBall8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED4BB5919ECCE64000B3B59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1ED4BB5B19ECCE64000B3B59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1ED4BB5D19ECCE64000B3B59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1ED4BB6119ECCE64000B3B59 /* magiBall8-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "magiBall8-Info.plist"; sourceTree = "<group>"; };
+		1ED4BB6319ECCE64000B3B59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1ED4BB6519ECCE64000B3B59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1ED4BB6719ECCE64000B3B59 /* magiBall8-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "magiBall8-Prefix.pch"; sourceTree = "<group>"; };
+		1ED4BB6819ECCE64000B3B59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1ED4BB6919ECCE64000B3B59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1ED4BB6C19ECCE64000B3B59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ED4BB6E19ECCE64000B3B59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1ED4BB6F19ECCE64000B3B59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1ED4BB7119ECCE64000B3B59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1ED4BB7719ECCE64000B3B59 /* magiBall8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magiBall8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED4BB7819ECCE64000B3B59 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1ED4BB8019ECCE64000B3B59 /* magiBall8Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "magiBall8Tests-Info.plist"; sourceTree = "<group>"; };
+		1ED4BB8219ECCE64000B3B59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1ED4BB8419ECCE64000B3B59 /* magiBall8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = magiBall8Tests.m; sourceTree = "<group>"; };
+		1ED4BB8E19ECCF11000B3B59 /* As I see it, yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "As I see it, yes.png"; sourceTree = "<group>"; };
+		1ED4BB8F19ECCF11000B3B59 /* Ask again later.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ask again later.png"; sourceTree = "<group>"; };
+		1ED4BB9019ECCF11000B3B59 /* Better not tell you now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Better not tell you now.png"; sourceTree = "<group>"; };
+		1ED4BB9119ECCF11000B3B59 /* Cannot predict now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cannot predict now.png"; sourceTree = "<group>"; };
+		1ED4BB9219ECCF11000B3B59 /* Concetrate and ask again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Concetrate and ask again.png"; sourceTree = "<group>"; };
+		1ED4BB9319ECCF11000B3B59 /* Don't count on it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Don't count on it.png"; sourceTree = "<group>"; };
+		1ED4BB9419ECCF11000B3B59 /* It is certain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "It is certain.png"; sourceTree = "<group>"; };
+		1ED4BB9519ECCF11000B3B59 /* It is decidedly so.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "It is decidedly so.png"; sourceTree = "<group>"; };
+		1ED4BB9619ECCF11000B3B59 /* Most Likely.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Most Likely.png"; sourceTree = "<group>"; };
+		1ED4BB9719ECCF11000B3B59 /* My reply is no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My reply is no.png"; sourceTree = "<group>"; };
+		1ED4BB9819ECCF11000B3B59 /* My sources say no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My sources say no.png"; sourceTree = "<group>"; };
+		1ED4BB9919ECCF11000B3B59 /* Outlook good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Outlook good.png"; sourceTree = "<group>"; };
+		1ED4BB9A19ECCF11000B3B59 /* Outlook not so good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Outlook not so good.png"; sourceTree = "<group>"; };
+		1ED4BB9B19ECCF11000B3B59 /* Reply hazy try again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reply hazy try again.png"; sourceTree = "<group>"; };
+		1ED4BB9C19ECCF11000B3B59 /* Signs point to yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Signs point to yes.png"; sourceTree = "<group>"; };
+		1ED4BB9D19ECCF11000B3B59 /* Very doubful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Very doubful.png"; sourceTree = "<group>"; };
+		1ED4BB9E19ECCF11000B3B59 /* Without a doubt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Without a doubt.png"; sourceTree = "<group>"; };
+		1ED4BB9F19ECCF11000B3B59 /* Yes, definitely.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yes, definitely.png"; sourceTree = "<group>"; };
+		1ED4BBA019ECCF11000B3B59 /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yes.png; sourceTree = "<group>"; };
+		1ED4BBA119ECCF11000B3B59 /* You may rely on it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "You may rely on it.png"; sourceTree = "<group>"; };
+		1ED4BBB619ECD166000B3B59 /* magic8ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic8ball.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ED4BB5319ECCE64000B3B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED4BB5C19ECCE64000B3B59 /* CoreGraphics.framework in Frameworks */,
+				1ED4BB5E19ECCE64000B3B59 /* UIKit.framework in Frameworks */,
+				1ED4BB5A19ECCE64000B3B59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED4BB7419ECCE64000B3B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED4BB7919ECCE64000B3B59 /* XCTest.framework in Frameworks */,
+				1ED4BB7B19ECCE64000B3B59 /* UIKit.framework in Frameworks */,
+				1ED4BB7A19ECCE64000B3B59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ED4BB4D19ECCE64000B3B59 = {
+			isa = PBXGroup;
+			children = (
+				1ED4BB5F19ECCE64000B3B59 /* magiBall8 */,
+				1ED4BB7E19ECCE64000B3B59 /* magiBall8Tests */,
+				1ED4BB5819ECCE64000B3B59 /* Frameworks */,
+				1ED4BB5719ECCE64000B3B59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ED4BB5719ECCE64000B3B59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ED4BB5619ECCE64000B3B59 /* magiBall8.app */,
+				1ED4BB7719ECCE64000B3B59 /* magiBall8Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ED4BB5819ECCE64000B3B59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ED4BB5919ECCE64000B3B59 /* Foundation.framework */,
+				1ED4BB5B19ECCE64000B3B59 /* CoreGraphics.framework */,
+				1ED4BB5D19ECCE64000B3B59 /* UIKit.framework */,
+				1ED4BB7819ECCE64000B3B59 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ED4BB5F19ECCE64000B3B59 /* magiBall8 */ = {
+			isa = PBXGroup;
+			children = (
+				1ED4BB6819ECCE64000B3B59 /* AppDelegate.h */,
+				1ED4BB6919ECCE64000B3B59 /* AppDelegate.m */,
+				1ED4BB6B19ECCE64000B3B59 /* Main.storyboard */,
+				1ED4BB6E19ECCE64000B3B59 /* ViewController.h */,
+				1ED4BB6F19ECCE64000B3B59 /* ViewController.m */,
+				1ED4BB7119ECCE64000B3B59 /* Images.xcassets */,
+				1ED4BB6019ECCE64000B3B59 /* Supporting Files */,
+			);
+			path = magiBall8;
+			sourceTree = "<group>";
+		};
+		1ED4BB6019ECCE64000B3B59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ED4BBB619ECD166000B3B59 /* magic8ball.png */,
+				1ED4BB8E19ECCF11000B3B59 /* As I see it, yes.png */,
+				1ED4BB8F19ECCF11000B3B59 /* Ask again later.png */,
+				1ED4BB9019ECCF11000B3B59 /* Better not tell you now.png */,
+				1ED4BB9119ECCF11000B3B59 /* Cannot predict now.png */,
+				1ED4BB9219ECCF11000B3B59 /* Concetrate and ask again.png */,
+				1ED4BB9319ECCF11000B3B59 /* Don't count on it.png */,
+				1ED4BB9419ECCF11000B3B59 /* It is certain.png */,
+				1ED4BB9519ECCF11000B3B59 /* It is decidedly so.png */,
+				1ED4BB9619ECCF11000B3B59 /* Most Likely.png */,
+				1ED4BB9719ECCF11000B3B59 /* My reply is no.png */,
+				1ED4BB9819ECCF11000B3B59 /* My sources say no.png */,
+				1ED4BB9919ECCF11000B3B59 /* Outlook good.png */,
+				1ED4BB9A19ECCF11000B3B59 /* Outlook not so good.png */,
+				1ED4BB9B19ECCF11000B3B59 /* Reply hazy try again.png */,
+				1ED4BB9C19ECCF11000B3B59 /* Signs point to yes.png */,
+				1ED4BB9D19ECCF11000B3B59 /* Very doubful.png */,
+				1ED4BB9E19ECCF11000B3B59 /* Without a doubt.png */,
+				1ED4BB9F19ECCF11000B3B59 /* Yes, definitely.png */,
+				1ED4BBA019ECCF11000B3B59 /* yes.png */,
+				1ED4BBA119ECCF11000B3B59 /* You may rely on it.png */,
+				1ED4BB6119ECCE64000B3B59 /* magiBall8-Info.plist */,
+				1ED4BB6219ECCE64000B3B59 /* InfoPlist.strings */,
+				1ED4BB6519ECCE64000B3B59 /* main.m */,
+				1ED4BB6719ECCE64000B3B59 /* magiBall8-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ED4BB7E19ECCE64000B3B59 /* magiBall8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1ED4BB8419ECCE64000B3B59 /* magiBall8Tests.m */,
+				1ED4BB7F19ECCE64000B3B59 /* Supporting Files */,
+			);
+			path = magiBall8Tests;
+			sourceTree = "<group>";
+		};
+		1ED4BB7F19ECCE64000B3B59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ED4BB8019ECCE64000B3B59 /* magiBall8Tests-Info.plist */,
+				1ED4BB8119ECCE64000B3B59 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ED4BB5519ECCE64000B3B59 /* magiBall8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ED4BB8819ECCE64000B3B59 /* Build configuration list for PBXNativeTarget "magiBall8" */;
+			buildPhases = (
+				1ED4BB5219ECCE64000B3B59 /* Sources */,
+				1ED4BB5319ECCE64000B3B59 /* Frameworks */,
+				1ED4BB5419ECCE64000B3B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = magiBall8;
+			productName = magiBall8;
+			productReference = 1ED4BB5619ECCE64000B3B59 /* magiBall8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ED4BB7619ECCE64000B3B59 /* magiBall8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ED4BB8B19ECCE64000B3B59 /* Build configuration list for PBXNativeTarget "magiBall8Tests" */;
+			buildPhases = (
+				1ED4BB7319ECCE64000B3B59 /* Sources */,
+				1ED4BB7419ECCE64000B3B59 /* Frameworks */,
+				1ED4BB7519ECCE64000B3B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ED4BB7D19ECCE64000B3B59 /* PBXTargetDependency */,
+			);
+			name = magiBall8Tests;
+			productName = magiBall8Tests;
+			productReference = 1ED4BB7719ECCE64000B3B59 /* magiBall8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ED4BB4E19ECCE64000B3B59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Fsilveira;
+				TargetAttributes = {
+					1ED4BB7619ECCE64000B3B59 = {
+						TestTargetID = 1ED4BB5519ECCE64000B3B59;
+					};
+				};
+			};
+			buildConfigurationList = 1ED4BB5119ECCE64000B3B59 /* Build configuration list for PBXProject "magiBall8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ED4BB4D19ECCE64000B3B59;
+			productRefGroup = 1ED4BB5719ECCE64000B3B59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ED4BB5519ECCE64000B3B59 /* magiBall8 */,
+				1ED4BB7619ECCE64000B3B59 /* magiBall8Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ED4BB5419ECCE64000B3B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED4BB7219ECCE64000B3B59 /* Images.xcassets in Resources */,
+				1ED4BBA919ECCF11000B3B59 /* It is decidedly so.png in Resources */,
+				1ED4BBA819ECCF11000B3B59 /* It is certain.png in Resources */,
+				1ED4BBAE19ECCF11000B3B59 /* Outlook not so good.png in Resources */,
+				1ED4BBB319ECCF11000B3B59 /* Yes, definitely.png in Resources */,
+				1ED4BBAD19ECCF11000B3B59 /* Outlook good.png in Resources */,
+				1ED4BBA619ECCF11000B3B59 /* Concetrate and ask again.png in Resources */,
+				1ED4BB6419ECCE64000B3B59 /* InfoPlist.strings in Resources */,
+				1ED4BBB019ECCF11000B3B59 /* Signs point to yes.png in Resources */,
+				1ED4BBB419ECCF11000B3B59 /* yes.png in Resources */,
+				1ED4BBAB19ECCF11000B3B59 /* My reply is no.png in Resources */,
+				1ED4BBA719ECCF11000B3B59 /* Don't count on it.png in Resources */,
+				1ED4BB6D19ECCE64000B3B59 /* Main.storyboard in Resources */,
+				1ED4BBB719ECD166000B3B59 /* magic8ball.png in Resources */,
+				1ED4BBAA19ECCF11000B3B59 /* Most Likely.png in Resources */,
+				1ED4BBB519ECCF11000B3B59 /* You may rely on it.png in Resources */,
+				1ED4BBA319ECCF11000B3B59 /* Ask again later.png in Resources */,
+				1ED4BBB219ECCF11000B3B59 /* Without a doubt.png in Resources */,
+				1ED4BBAC19ECCF11000B3B59 /* My sources say no.png in Resources */,
+				1ED4BBAF19ECCF11000B3B59 /* Reply hazy try again.png in Resources */,
+				1ED4BBA219ECCF11000B3B59 /* As I see it, yes.png in Resources */,
+				1ED4BBA519ECCF11000B3B59 /* Cannot predict now.png in Resources */,
+				1ED4BBA419ECCF11000B3B59 /* Better not tell you now.png in Resources */,
+				1ED4BBB119ECCF11000B3B59 /* Very doubful.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED4BB7519ECCE64000B3B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED4BB8319ECCE64000B3B59 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ED4BB5219ECCE64000B3B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED4BB7019ECCE64000B3B59 /* ViewController.m in Sources */,
+				1ED4BB6A19ECCE64000B3B59 /* AppDelegate.m in Sources */,
+				1ED4BB6619ECCE64000B3B59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED4BB7319ECCE64000B3B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED4BB8519ECCE64000B3B59 /* magiBall8Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ED4BB7D19ECCE64000B3B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ED4BB5519ECCE64000B3B59 /* magiBall8 */;
+			targetProxy = 1ED4BB7C19ECCE64000B3B59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ED4BB6219ECCE64000B3B59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ED4BB6319ECCE64000B3B59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1ED4BB6B19ECCE64000B3B59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ED4BB6C19ECCE64000B3B59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ED4BB8119ECCE64000B3B59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ED4BB8219ECCE64000B3B59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ED4BB8619ECCE64000B3B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1ED4BB8719ECCE64000B3B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ED4BB8919ECCE64000B3B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magiBall8/magiBall8-Prefix.pch";
+				INFOPLIST_FILE = "magiBall8/magiBall8-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1ED4BB8A19ECCE64000B3B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magiBall8/magiBall8-Prefix.pch";
+				INFOPLIST_FILE = "magiBall8/magiBall8-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1ED4BB8C19ECCE64000B3B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/magiBall8.app/magiBall8";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magiBall8/magiBall8-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "magiBall8Tests/magiBall8Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1ED4BB8D19ECCE64000B3B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/magiBall8.app/magiBall8";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magiBall8/magiBall8-Prefix.pch";
+				INFOPLIST_FILE = "magiBall8Tests/magiBall8Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ED4BB5119ECCE64000B3B59 /* Build configuration list for PBXProject "magiBall8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED4BB8619ECCE64000B3B59 /* Debug */,
+				1ED4BB8719ECCE64000B3B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ED4BB8819ECCE64000B3B59 /* Build configuration list for PBXNativeTarget "magiBall8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED4BB8919ECCE64000B3B59 /* Debug */,
+				1ED4BB8A19ECCE64000B3B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1ED4BB8B19ECCE64000B3B59 /* Build configuration list for PBXNativeTarget "magiBall8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED4BB8C19ECCE64000B3B59 /* Debug */,
+				1ED4BB8D19ECCE64000B3B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ED4BB4E19ECCE64000B3B59 /* Project object */;
+}
